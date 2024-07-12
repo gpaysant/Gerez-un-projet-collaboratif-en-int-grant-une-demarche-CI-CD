@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bobapp</name>
 	<description>L'application de joke par excellence !</description>
-	<!-- To simulate a commit in back  -->
+	<!-- To simulate a commit in back -->
 	<properties>
 		<java.version>11</java.version>
 		<sonar.projectKey>app_back</sonar.projectKey>
