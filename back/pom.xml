@@ -13,8 +13,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bobapp</name>
 	<description>L'application de joke par excellence !</description>
+	<!-- To simulate a commit in back -->
 	<properties>
 		<java.version>11</java.version>
+		<sonar.projectKey>app_back</sonar.projectKey>
+		<sonar.projectName>app_back</sonar.projectName>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -56,6 +59,11 @@
 						</goals>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>4.0.0.4121</version>
 			</plugin>
 		</plugins>
 	</build>
